@@ -28,6 +28,27 @@ python main.py
 
 ---
 
+## Requirements
+
+### Tested Environment
+- Python 3.12
+- pip
+- Git
+- Jupyter / VS Code notebook support
+
+### Python Packages
+Install everything with:
+```bash
+pip install -r requirements.txt
+```
+
+### Notes
+- On Linux, install `python3-venv` if virtual environment creation fails.
+- In VS Code, select the same Python environment for both the terminal and the notebook kernel.
+- The notebook and the script use the same project modules under `src/`.
+
+---
+
 ## Project Structure
 
 ```

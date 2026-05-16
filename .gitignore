@@ -50,5 +50,6 @@ build/
 !data/raw/
 !data/raw/GamingStudy_data.csv
 
-# Development tracker (persisted, but not secret)
-# git_tracker.txt is intentionally tracked — do not ignore
+# Development tracker (local only)
+# Keep `git_tracker.txt` local; do not upload to remote
+git_tracker.txt

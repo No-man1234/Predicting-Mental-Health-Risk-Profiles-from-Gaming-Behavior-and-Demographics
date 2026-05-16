@@ -53,4 +53,11 @@ build/
 # Development tracker (local only)
 # Keep `git_tracker.txt` local; do not upload to remote
 git_tracker.txt
+
+# Ignore local bootstrap scripts
+get-pip.py
+
+# CatBoost training artifacts and logs
+catboost_info/
+notebooks/**/catboost_info/
 get-pip.py
